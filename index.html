@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Sembei Maker</h1>
+    <!-- <canvas id="can"></canvas><br> -->
+    <img src="sembei.png">
+    <br>
+    <script src="script.js"></script>
+    Baked Sembei
+    <p id="num_sembei" style="display:inline">0</p>
+    <br>
+    Sembei baked in one batch
+    <p id="increment_sembei" style="display:inline">1</p>
+    <br>
+    <input type="button" value="Bake" onclick="on_click_bake();">
+
+    <br>
+    <div class="items">
+      <div class="item">
+        <img src="machine.png" class="machine"  id="machine0" onclick="buy_machine(0);"><br>
+        Price: 100<br>
+        Capability: 2
+      </div>
+      <div class="item">
+        <img src="machine.png" class="machine" id="machine1" onclick="buy_machine(1);"><br>
+        Price: 150<br>
+        Capability: 3
+      </div>
+      <div class="item">
+        <img src="machine.png" class="machine" id="machine2" onclick="buy_machine(2);"><br>
+        Price: 500<br>
+        Capability: 10
+      </div>
+      <div class="item">
+        <img src="machine.png" class="machine" id="machine3" onclick="buy_machine(3);"><br>
+        Price: 1000<br>
+        Capability: 20
+      </div>
+      <div class="item">
+        <img src="machine.png" class="machine" id="machine4" onclick="buy_machine(4);"><br>
+        Price: 2000<br>
+        Capability: 50
+      </div>
+    </div>
+  </body>
+</html>
